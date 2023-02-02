@@ -1,0 +1,22 @@
+{
+  "name": "t3-app-1",
+  "version": "1.0.0",
+  "description": "Starter project for ExpressJS with React + Vite using tRPC",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run dev --workspace=client & npm run dev --workspace=server"
+  },
+  "workspaces": [
+    "./packages/client",
+    "./packages/server"
+  ],
+  "keywords": [
+    "ExpressJS",
+    "React",
+    "Vite",
+    "tRPC",
+    "typescript"
+  ],
+  "author": "Truly Mittal <trulymittal@gmail.com> (https://www.trulymittal.com/)",
+  "license": "ISC"
+}
