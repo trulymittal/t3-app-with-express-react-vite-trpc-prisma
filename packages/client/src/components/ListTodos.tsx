@@ -1,9 +1,21 @@
 export default function ListTodos() {
   function handleDelete() {}
+  function updateTodo() {}
   return (
     <ul className=''>
-      <li className='flex justify-between items-center bg-gray-100 py-2 px-3 rounded-md'>
-        <p>Hi from Mafia codes</p>
+      <li className='flex justify-between items-center bg-gray-100 py-2 px-3 rounded-md space-x-2'>
+        <p>
+          Hi from Mafia codes Lorem ipsum dolor sit amet consectetur adipisicing
+          elit.
+        </p>
+
+        <button
+          className='text-white bg-green-600 px-2 py-1 rounded text-sm hover:line-through cursor-pointer hover:text-black'
+          onClick={() => updateTodo()}
+        >
+          {true ? 'Complete' : 'Incomplete'}
+        </button>
+
         <button
           onClick={() => handleDelete()}
           className='text-red-500 hover:text-white hover:bg-red-500 p-1 rounded'
