@@ -3,7 +3,6 @@ import expressLogo from './assets/express.png'
 import reactLogo from './assets/react.svg'
 import tRpcLogo from './assets/trpc.svg'
 import AddTodo from './components/AddTodo'
-import GetTodoById from './components/GetTodoById'
 import ListTodos from './components/ListTodos'
 
 function App() {
@@ -34,7 +33,6 @@ function App() {
       <div className='max-w-md mx-auto grid gap-y-4 mt-8'>
         <ListTodos />
         <AddTodo />
-        <GetTodoById />
       </div>
     </div>
   )
