@@ -8,5 +8,5 @@ app.get('/', (req: Request, res: Response, next: NextFunction) => {
 
 const PORT: number = Number(process.env.PORT) || 3000
 app.listen(PORT, () => {
-  console.log(`Server running on Port: ${PORT}`)
+  console.log(`🚀 Server running on Port: ${PORT}`)
 })
