@@ -23,6 +23,7 @@ The quickest way to get started is to clone the project and install the dependen
 
 ```bash
 $ npm i --workspaces
+$ npm run dev
 ```
 
 ## Author ✍️
